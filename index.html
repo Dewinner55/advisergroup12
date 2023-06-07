@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="путь_к_файлу_jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="//s.siteapi.org/frontend/static/grid_12/css/contacts.1895db.min.css" rel="stylesheet" type="text/css" />
+   <link href="//s.siteapi.org/frontend/static/grid_12/css/socnets.d744b7.min.css" rel="stylesheet" type="text/css" />
+
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Моя компания - Лучшие товары и услуги в Интернете</title>
+
+  <style>
+    svg {
+      display: none;
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+  <style type="text/css">
+    :root {
+      --fallback-font-header: "";
+      --fallback-font-paragraph: ""
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local('Montserrat'), url('https://fonts.cdnfonts.com/s/14883/Montserrat-Medium.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: local('Montserrat'), url('https://fonts.cdnfonts.com/s/14883/Montserrat-MediumItalic.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+      src: local('Montserrat'), url('https://fonts.cdnfonts.com/s/14883/Montserrat-Black.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: italic;
+      font-weight: 900;
+      font-display: swap;
+      src: local('Montserrat'), url('https://fonts.cdnfonts.com/s/14883/Montserrat-BlackItalic.woff') format('woff');
+    }
+  </style>
+
+  <link href="//s.siteapi.org/frontend/static/grid_12/css/layouts.d730af.min.css" rel="stylesheet" type="text/css" />
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic&subset=latin,cyrillic-ext,latin-ext,cyrillic" rel="stylesheet">
+
+  <link rel="canonical" href="https://avisergroup999.nethouse.ru/">
+
+  <style type="text/css">
+      /* Пользовательские CSS переменные */
+
+    :root {
+      /* Кнопки */
+      /* Цвет текста для кнопок по умолчанию (#FFFFFF - белый) */
+      --button-default-color: #FFFFFF;
+      /* Фоновый цвет для кнопок по умолчанию (#2176FF - синий) */
+      --button-default-bg-color: #2176FF;
+      /* Цвет границы для кнопок по умолчанию (#2176FF - синий) */
+      --button-default-border-color: #2176FF;
+      /* Цвет текста для кнопок при наведении (#FFFFFF - белый) */
+      --button-default-color-hover: #FFFFFF;
+      /* Фоновый цвет для кнопок при наведении (#106CFF - голубой) */
+      --button-default-bg-color-hover: #106CFF;
+      /* Цвет границы для кнопок при наведении (#106CFF - голубой) */
+      --button-default-border-color-hover: #106CFF;
+      /* Цвет текста для активных кнопок (#BCC4D5 - серый) */
+      --button-default-color-active: #BCC4D5;
+      /* Фоновый цвет для активных кнопок (#0061FE - темно-синий) */
+      --button-default-bg-color-active: #0061FE;
+      /* Цвет границы для активных кнопок (#0061FE - темно-синий) */
+      --button-default-border-color-active: #0061FE;
+      /* Радиус границы для маленьких кнопок */
+      --button-default-radius-small: var(--button-radius-small-1);
+      /* Радиус границы для средних кнопок */
+      --button-default-radius-medium: var(--button-radius-medium-1);
+      /* Радиус границы для больших кнопок */
+      --button-default-radius-large: var(--button-radius-large-1);
+      /* Границы кнопок */
+      /* Цвет текста для границ кнопок (#11151C - черный) */
+      --button-bordered-color: #11151C;
+      /* Фоновый цвет для границ кнопок (#0CF574 - зеленый) */
+      --button-bordered-bg-color: #0CF574;
+      /* Цвет границы для границ кнопок (#0CF574 - зеленый) */
+      --button-bordered-border-color: #0CF574;
+      /* Цвет текста для границ кнопок при наведении (#000000 - черный) */
+      --button-bordered-color-hover: #000000;
+      /* Фоновый цвет для границ кнопок при наведении (#2DF687 - светло-зеленый) */
+      --button-bordered-bg-color-hover: #2DF687;
+      /* Цвет границы для границ кнопок при наведении (#2DF687 - светло-зеленый) */
+      --button-bordered-border-color-hover: #2DF687;
+      /* Цвет текста для активных границ кнопок (#000000 - черный) */
+      --button-bordered-color-active: #000000;
+      /* Фоновый цвет для активных границ кнопок (#4DF899 - ярко-зеленый) */
+      --button-bordered-bg-color-active: #4DF899;
+      /* Цвет границы для активных границ кнопок (#4DF899 - ярко-зеленый) */
+      --button-bordered-border-color-active: #4DF899;
+      --menu-logo-width: 215px;
+      --menu-vertical-align: center;
+      --menu-links-underline-on-hover: 1;
+      --menu-sticky: sticky;
+      --menu-font-size: 0.75rem;
+      --menu-width: 84.5rem;
+      --menu-bg-blur: blur(5px);
+      --menu-color: #BCC4D5;
+      --menu-color-hover: #0CF574;
+      --menu-bg-color: rgba(17, 21, 28, 0.9);
+      --menu-bg-color-solid: #11151C;
+      --header-color: #F9EBE0;
+    }
+  </style>
+
+  <link href="images/favicon.ico" rel="shortcut icon">
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/tobii.min.css" rel="stylesheet" type="text/css">
+  <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+  <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt">
+  <style type="text/css" id="#jarallax-clip-0">#jarallax-container-0 {
+   clip: rect(0 826px 910px 0);
+   clip: rect(0, 826px, 910px, 0);
+}</style>
+  <style type="text/css" id="#jarallax-clip-1">#jarallax-container-1 {
+   clip: rect(0 826px 378px 0);
+   clip: rect(0, 826px, 378px, 0);
+}</style>
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.69JJaQ5G5xA.L.W.O/d=0/rs=AN8SPfpC36MIoWPngdVwZ4RUzeJYZaC7rg/m=el_main_css">
+
+  <style>
+  .socnets__icon1 svg {
+  margin-left: 100px;
+    width: 34px;
+    height: 34px;
+  }
+
+    .socnets__icon2 svg {
+  margin-left: 50px;
+    width: 34px;
+    height: 34px;
+  }
+</style>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css2/style.css">
+
+
+
+</head>
+
+<body id="top-body" data-page-type="index" class="site site_main-page " data-html-version="1" data-grid="1" data-ng-controller="BlocksController as blockCtrl" data-ng-init="moduleId = 1" data-lang="ru_RU" style="background: ;">
+
+  <div class="site__layout">
+    <div id="container" class="site-container module main-page-module main-page-module_no-slider">
+
+
+      <header class="site-header js-sticky__header small-12">
+        <div class="site-header__wrapper">
+          <div class="site-header__content">
+            <div class="site-header__top-contacts">
+              <link href="//s.siteapi.org/frontend/static/grid_12/css/topContacts.e1fef2.min.css" rel="stylesheet" type="text/css" />
+              <section id="topcontacts" data-block-id="3" data-ng-init="init(3)" data-ng-controller="TopContactsController" class="block-3 widget widget-block -nt-widget top-contacts nh-editor-panel" data-ng-class="{'on-view': !blocks[3].isEdit, 'edit-item': blocks[3].editItem}">
+                <div class="top-contacts__inner">
+                  <div data-ng-show="!blocks[3].isEdit" class="content-block" id="topcontacts-show">
+                    <div class="top-contacts -inline-group js-top-contacts">
+                      <div class="-inline-group top-contacts__phones" style="padding-left: 30px;">
+                        <div class="top-contacts__phones-list show-for-medium js-top-contacts__phones">
+                          <div class="desktop -inline-group">
+                              <div class="top-contacts__icon top-contacts__icon_phone js-top-contacts__phone top-contacts--hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                </svg><a class="top-contacts__phones-item phone-number js-phone-number__781200000000" href="tel:+781200000000">+996 500 202 263</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="top-contacts__forms">
+                        <div class="row -inline-group text-right">
+                          <div class="feedback inline-column top-contacts__form">
+                            <a href="#feedback" class="top-contacts__link feedback-btn -inline-group" data-type="0">
+                              <div class="top-contacts__icon top-contacts__icon_form">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+                                  <defs/>
+                                  <path fill="currentColor" fill-rule="evenodd" d="M2 2h12a2 2 0 012 2v8a2 2 0 01-2 2H2a2 2 0 01-2-2V4c0-1.1.9-2 2-2zm0 5v5h12V6.9L8 10 2 7zm0-2l6 3 6-3V4H2v1z" clip-rule="evenodd" />
+                                </svg>
+                              </div>
+                              <span class="show-for-medium top-contacts__form-text">Напишите нам</span>
+                            </a>
+                          </div>
+                          <div class="feedback inline-column top-contacts__form">
+                            <a href="#sviaz" class="top-contacts__link feedback-btn -inline-group" data-type="1">
+                              <div class="top-contacts__icon top-contacts__icon_form">
+                                <svg id="callback_icon" width="50" height="50" data-name="callback icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15">
+                                  <title>callback_icon</title>
+                                  <path fill="currentColor" d="M17.88,1.5a10.32,10.32,0,0,0-1-1A1.45,1.45,0,0,0,16,0a2,2,0,0,0-1,.48,7.38,7.38,0,0,0-1.22,1.14A5.06,5.06,0,0,0,12.91,3,0.89,0.89,0,0,0,13,4a4.35,4.35,0,0,0,1.38,1A1,1,0,0,1,15,6a2.35,2.35,0,0,1-.62,1.5Q13.75,8.25,13,9t-1.5,1.38A2.35,2.35,0,0,1,10,11a1,1,0,0,1-1-.63A4.35,4.35,0,0,0,8,9a0.89,0.89,0,0,0-1-.09,5.06,5.06,0,0,0-1.33.84A7.37,7.37,0,0,0,4.48,11,2,2,0,0,0,4,12a1.45,1.45,0,0,0,.47.89,10.36,10.36,0,0,0,1,1Q6.06,14.34,7,15a6,6,0,0,0,1.82-.35,16.1,16.1,0,0,0,2.2-.92,19.94,19.94,0,0,0,2.19-1.28A12,12,0,0,0,15,11a12.05,12.05,0,0,0,1.45-1.79A20,20,0,0,0,17.73,7a16,16,0,0,0,.92-2.2A6,6,0,0,0,19,3Q18.34,2.06,17.88,1.5ZM6,6L9,3,6,0V2H1V4H6V6Z" transform="translate(-1)" />
+                                </svg>
+                              </div>
+                              <span class="show-for-medium top-contacts__form-text">Обратный звонок</span>
+                            </a>
+                          </div>
+                          <div class="feedback inline-column top-contacts__form top-contacts_scroll-up">
+                            <div class="top-contacts__icon js-scroll-up hide-for-medium">
+                              <?xml version="1.0" encoding="utf-8"?>
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="768" viewBox="0 0 768 768">
+                                  <path d="M384 256.5l192 192-45 45-147-147-147 147-45-45z">
+
+                                  </path>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="site-header__bottom-section js-combo-box" combo-box="menu">
+              <div class="site-header-bottom site-header__inner">
+                <div class="site-header__logo small-8 large-3">
+                  <div class="site-header__container">
+                    <div class="hide-for-large site-header__icon-width">
+                      <button class="site-header__menu-btn svg-icon js-combo-box__button_menu" data-toggle="site-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <defs/>
+                          <path fill-rule="evenodd" d="M2 5C2 4.44772 2.44772 4 3 4H21C21.5523 4 22 4.44772 22 5C22 5.55228 21.5523 6 21 6H3C2.44772 6 2 5.55228 2 5ZM2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12ZM3 18C2.44772 18 2 18.4477 2 19C2 19.5523 2.44772 20 3 20H21C21.5523 20 22 19.5523 22 19C22 18.4477 21.5523 18 21 18H3Z" clip-rule="evenodd" />
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="small-10 medium-11 large-12 site-header__img-container">
+                      <link href="//s.siteapi.org/frontend/static/grid_12/css/widget-logo.8a74c8.min.css" rel="stylesheet" type="text/css">
+                      <section id="company-logo" class="block-1 widget-block widget-logo nh-editor-panel">
+                        <div id="site-logo" class="widget-logo__image">
+                          <a href="">
+                            <img src="https://i.imgur.com/9iBLh8G.png" alt="Логотип" style="">
+                          </a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="site-header__manage small-4 large-9">
+                  <div class="site-header__flex-container">
+                    <div class="menu-cart-wrapper nh-editor-panel nh-editor-panel_main-menu js-editor-panel -relative">
+                      <link href="//s.siteapi.org/frontend/static/grid_12/css/site-menu.40cbe7.min.css" rel="stylesheet" type="text/css">
+                      <div class="js-combo-box__content_menu combo-box__content combo-box__content_invert large-12">
+                        <div class="combo-box__header">
+                          <div class="combo-box__title">Меню</div>
+                          <div class="combo-box__close js-combo-box__close_menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                              <defs/>
+                              <path d="M10.8 12.2L3 20l1.4 1.4 7.8-7.8 7.8 7.8 1.4-1.4-7.8-7.8 7.8-7.8L20 3l-7.8 7.8L4.4 3 3 4.4l7.8 7.8z" />
+                            </svg>
+                          </div>
+                        </div>
+                        <nav id="main-menu" class="site-menu">
+                          <div>
+                            <ul class="no-bullet site-menu__list clearfix">
+
+                              </li>
+                              <li id="lnk-2" data-sort="1" class="site-menu__item" data-label="О компании">
+                                <a href="#about" style="">О компании</a>
+                              </li>
+                              <li id="lnk-3" data-sort="2" class="site-menu__item" data-label="Каталог товаров">
+                                <a href="#uslugi" style="">Услуги</a>
+                              </li>
+                              <li id="lnk-4" data-sort="3" class="site-menu__item" data-label="Услуги">
+                                <a href="#sviaz" style="">Связаться</a>
+                              </li>
+                              </li>
+                              <li id="lnk-6" data-sort="5" class="site-menu__item" data-label="Контакты">
+                                <a href="#contact" style="">Контакты</a>
+                              </li>
+                              <a target="_blank" class="socnets__icon1" rel="nofollow" href="https://wa.me/WhatsApp">
+                <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m20.52 3.449c-2.28-2.204-5.28-3.449-8.475-3.449-9.17 0-14.928 9.935-10.349 17.838l-1.696 6.162 6.335-1.652c2.76 1.491 5.021 1.359 5.716 1.447 10.633 0 15.926-12.864 8.454-20.307z" fill="#eceff1"/><path d="m12.067 21.751-.006-.001h-.016c-3.182 0-5.215-1.507-5.415-1.594l-3.75.975 1.005-3.645-.239-.375c-.99-1.576-1.516-3.391-1.516-5.26 0-8.793 10.745-13.19 16.963-6.975 6.203 6.15 1.848 16.875-7.026 16.875z" fill="#4caf50"/><path d="m17.507 14.307-.009.075c-.301-.15-1.767-.867-2.04-.966-.613-.227-.44-.036-1.617 1.312-.175.195-.349.21-.646.075-.3-.15-1.263-.465-2.403-1.485-.888-.795-1.484-1.77-1.66-2.07-.293-.506.32-.578.878-1.634.1-.21.049-.375-.025-.524-.075-.15-.672-1.62-.922-2.206-.24-.584-.487-.51-.672-.51-.576-.05-.997-.042-1.368.344-1.614 1.774-1.207 3.604.174 5.55 2.714 3.552 4.16 4.206 6.804 5.114.714.227 1.365.195 1.88.121.574-.091 1.767-.721 2.016-1.426.255-.705.255-1.29.18-1.425-.074-.135-.27-.21-.57-.345z" fill="#fafafa"/></svg>
+              </a>
+                              <a target="_blank" class="socnets__icon2" rel="nofollow" href="https://t.me/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <defs/>
+                  <path fill="currentColor" d="M28.93 6.98L25 25.48c-.3 1.31-1.07 1.64-2.16 1.02l-5.98-4.4-2.89 2.77c-.32.32-.58.59-1.2.59l.43-6.09L24.28 9.36c.48-.43-.1-.67-.75-.24l-13.7 8.63-5.9-1.85c-1.27-.4-1.3-1.28.28-1.9l23.06-8.88c1.07-.4 2 .23 1.66 1.87z" />
+                </svg>
+              </a>
+
+                            </ul>
+                          </div>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </header>
+
+      <div id="content-anchor" class="site-content small-12">
+        <div class="site-background" style="background-color: #5B40D7; background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;">
+
+        </div>
+      </div>
+
+        <section id="content" class="js-blocks-list" data-blocks-list data-ng-controller="ContentController">
+          <div class="js-sorted-blocks main-page-module__list module__list " data-sorted-blocks data-widget-store-list data-region="1" data-module="2">
+
+            <section data-widget-container
+         data-widget-id="13"
+         data-widget-name="carousel-fullscreen"
+         data-widget-type="100"
+         data-widget-url="/widget?route=widget&amp;on_main=0&amp;type=100&amp;widget_id=13&isCreate=1"
+		                   id="carousel-fullscreen-13"
+         class="nh-carousel-fullscreen  widget-sort
+         onmain on-view widget-block js-carousel-fullscreen nh-editor-panel js-indent">
+              <link href="//s.siteapi.org/frontend/static/grid_12/css/carousel-fullscreen.8184e6.min.css" rel="stylesheet" type="text/css"/>
+              <div data-widget-replaceable-content="13" class="lazyload" style="
+              background-position: top left;
+              background-repeat: repeat-x;
+              background-size: auto;
+              background-color: rgba(9,17,62, 1);">
+                <div data-ng-non-bindable class="content-block nh-carousel-fullscreen__content" id="carousel-fullscreen-show">
+                  <div class="splide splide-13 nh-carousel-fullscreen__container" data-splide='{ "type": "loop", "autoplay": false, "rewind": true, "rewindByDrag": true }'>
+                    <div class="splide__arrows nh-carousel-fullscreen__arrows splide__arrows--ltr"><button class="splide__arrow nh-carousel-fullscreen__arrow splide__arrow--prev nh-carousel-fullscreen__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="M27.7071 20.7071C28.0976 20.3166 28.0976 19.6834 27.7071 19.2929L23.7071 15.2929C23.3166 14.9024 22.6834 14.9024 22.2929 15.2929C21.9024 15.6834 21.9024 16.3166 22.2929 16.7071L24.5858 19H13C12.4477 19 12 19.4477 12 20C12 20.5523 12.4477 21 13 21H24.5858L22.2929 23.2929C21.9024 23.6834 21.9024 24.3166 22.2929 24.7071C22.6834 25.0976 23.3166 25.0976 23.7071 24.7071L27.7071 20.7071Z"></path></svg></button><button class="splide__arrow nh-carousel-fullscreen__arrow splide__arrow--next nh-carousel-fullscreen__arrow--next" type="button" aria-label="Go to first slide" aria-controls="splide01-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="M27.7071 20.7071C28.0976 20.3166 28.0976 19.6834 27.7071 19.2929L23.7071 15.2929C23.3166 14.9024 22.6834 14.9024 22.2929 15.2929C21.9024 15.6834 21.9024 16.3166 22.2929 16.7071L24.5858 19H13C12.4477 19 12 19.4477 12 20C12 20.5523 12.4477 21 13 21H24.5858L22.2929 23.2929C21.9024 23.6834 21.9024 24.3166 22.2929 24.7071C22.6834 25.0976 23.3166 25.0976 23.7071 24.7071L27.7071 20.7071Z"></path></svg></button></div>
+                    <div class="small-12 column splide__track ">
+                      <ul class="splide__list nh-carousel-fullscreen__items">
+                        <li data-splide-interval="5000" data-slide-id="9" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
+                        background-position: top left;
+                        background-repeat: repeat-x;
+                        background-size: auto;
+                        background-color: rgba(49,79,159, 1);"
+                            data-bgset="//i.siteapi.org/m1VyMIN9GNCVQ6ntskRH-HSsVk0=/fit-in/2000x4000/center/top/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/k2y1skyngq8sg4sosso4ws0gcws0w0, //i.siteapi.org/d30Q7IXcpocbfJcPg5IkbHahpuo=/fit-in/4000x8000/center/top/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/k2y1skyngq8sg4sosso4ws0gcws0w0 2x">
+                          <div class="nh-carousel-fullscreen__item-wrapper">
+                            <figure class="nh-carousel-fullscreen__figure nh-carousel-fullscreen__inner
+                                         nh-carousel-fullscreen__figure--all nh-carousel-fullscreen__figure--reverse">
+                              <div class="nh-carousel-fullscreen__image-block">
+                                <picture class="nh-carousel-fullscreen__picture-container nh-carousel-fullscreen_round-2" style="                                        ">
+                                  <source media="(max-width: 767px)" srcset="//i.siteapi.org/gkoh7-SZ8mLWD7R1vV646C8CcK0=/fit-in/374x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/webp">
+                                  <source media="(max-width: 767px)" srcset="//i.siteapi.org/9n_QbM8BxPlxKC-cJXlHy3p3W9M=/fit-in/374x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/png">
+                                  <source media="(min-width: 768px)" srcset="//i.siteapi.org/50yvdKBZxmGSbdJzXDvvc9nzo5Q=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/webp">
+                                  <source media="(min-width: 768px)" srcset="//i.siteapi.org/CYxmdVKWFKFRrb0dK4A65nS8EzU=/fit-in/608x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/png"><img alt="Adviser Group" sizes="(max-width: 767px) 374px, (min-width: 768px) 608px" src="//i.siteapi.org/50yvdKBZxmGSbdJzXDvvc9nzo5Q=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw" media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-carousel-fullscreen_round-2"></picture>
+                              </div><div class="nh-carousel-fullscreen__info"><div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-left"
+                                                        style="
+                                                                                                                    color: #FFF;
+                                                         ">
+														Adviser Group
+                                                    </div><figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-left" style="
+                                                                                                                    color: #ffffff;
+                                                                                                                                                                            text-align: left                                                        ">Adviser Group - ведущая юридическая фирма, расположенная в городе Бишкеке.
+                                                    </figcaption><a target="_parent" href="#sviaz" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--secondary nh-carousel-fullscreen__btn--margin-0">Бесплатная консультация</a></div>
+                            </figure>
+                          </div>
+                        </li>
+                        <li data-splide-interval="5000" data-slide-id="12" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
+                        background-position: right;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-color: rgba(249,235,224, 1);"
+                            data-bgset="//i.siteapi.org/7EeXtuXxVLWnWRZmtrVONBth1c4=/fit-in/2000x4000/center/top/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/bing1lg5m8oc4c4kgoscws48gww8gs, //i.siteapi.org/qh35yWMAzfbULE2ildQQtW9wYbQ=/fit-in/4000x8000/center/top/filters:format(webp):no_upscale()/s2.sitea48gww8gs 2x">
+                          <div class="nh-carousel-fullscreen__item-wrapper">
+                            <figure class="nh-carousel-fullscreen__figure nh-carousel-fullscreen__inner
+                                         nh-carousel-fullscreen__figure--all">
+                              <div class="nh-carousel-fullscreen__image-block">
+                                <picture class="nh-carousel-fullscreen__picture-container nh-carousel-fullscreen_round-2" style="                                        ">
+                                  <source media="(max-width: 767px)" srcset="//i.siteapi.org/ZC7WPMVG55Uvymo4osF3SiLYYOk=/fit-in/374x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks 1x," type="image/webp">
+                                  <source media="(max-width: 767px)" srcset="//i.siteapi.org/GhiYcEhuYF1unoVC3j30-3b6JUI=/fit-in/374x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks 1x," type="image/png">
+                                  <source media="(min-width: 768px)" srcset="//i.siteapi.org/9YqV7YPDAQK_d63YNOEOE_JBimU=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks 1x," type="image/webp">
+                                  <source media="(min-width: 768px)" srcset="//i.siteapi.org/Wi0b_z5DBE9OXHYkwJwHngPPSQc=/fit-in/608x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks 1x," type="image/png"><img alt="Adviser Group" sizes="(max-width: 767px) 374px, (min-width: 768px) 608px" src="//i.siteapi.org/9YqV7YPDAQK_d63YNOEOE_JBimU=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks" media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-carousel-fullscreen_round-2"></picture></div>
+                              <div class="nh-carousel-fullscreen__info" >
+                                <div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-left" style="
+                                                                                                                    color: #11151C;
+                                                         ">
+														Adviser Group
+                                                    </div>
+                                <figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-left" style="
+                                                                                                                    color: #1E2430;
+                                                                                                                                                                            text-align: left                                                        ">Мы специализируемся на широком спектре юридических услуг, от корпоративного и коммерческого права <br/>до судебных разбирательств и разрешения споров.
+                                </figcaption><a target="_parent" href="#sviaz" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--basic nh-carousel-fullscreen__btn--margin-0">Оставить заявку</a></div>
+                            </figure>
+                          </div>
+                        </li >
+                        <li data-splide-interval="5000" data-slide-id="11" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-color: rgba(91,64,215, 1);" >
+                          <div class="nh-carousel-fullscreen__item-wrapper">
+                            <figure class="nh-carousel-fullscreen__figure nh-carousel-fullscreen__inner
+                                         nh-carousel-fullscreen__figure--only-text nh-carousel-fullscreen__figure--hide-img">
+                              <div class="nh-carousel-fullscreen__image-block"></div><div class="nh-carousel-fullscreen__info">
+                              <div class="nh-carousel-fullscreen__info-container"><div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-center" style="
+                                                                                                                    color: #ffffff;
+                                                         ">
+														Adviser Group
+                              </div><figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-center" style="
+                                                                                                                    color: #ffffff;
+                                                                                                                                                                            text-align: center                                                        ">Наша опытная команда юристов стремится предоставлять качественные
+                                <br />консультации и представлять интересы наших клиентов.
+                              </figcaption><a target="_parent" href="#uslugi" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--secondary nh-carousel-fullscreen__btn--margin-1">Узнать больше</a></div>
+                            </div>
+                            </figure>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <script>
+                  document.addEventListener( 'DOMContentLoaded', function() {
+                    window.initFullscreenCarousel(13);
+                                    });
+                </script>
+              </div >
+            </section >
+
+
+
+<style>
+  .a {
+  background-color:red
+  width: 10px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;"
+
+
+  }
+</style>
+
+
+
+<style>
+.container1 {
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 250px;
+    color: white;
+}
+
+    @media (max-width: 767px) {
+        /* Применить стили только для мобильных устройств с шириной до 767px */
+        .container1 {
+            padding-left: 15px;
+        }
+    }
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.col-xl-6,
+.col-lg-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+.support-location-img {
+    background-size: cover;
+    background-position: center;
+    width: 105%; /* Ширина элемента */
+    height: 600px; /* Высота элемента */
+
+
+
+}
+
+.right-caption {
+    text-align: left;
+
+}
+
+.section-tittle {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.support-caption {
+
+
+}
+
+.pera-top,
+.mb-65 {
+    margin-bottom: 40px;
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+.post-btn {
+    /* Дополнительные стили для кнопки */
+
+}
+
+.pera-top {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-top: -60px
+
+
+
+}
+
+h2.h21 {
+    font-family: "Roboto", sans-serif;
+    color: #092c3f;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+
+.section-tittle2 span {
+    color: #cecece;
+}
+
+.section-tittle span {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: px;
+    text-transform: uppercase;
+
+    display: inline-block;
+    position: relative;
+    padding-left: 10px;
+}
+
+.mb-50 {
+    margin-bottom: 150px;
+}
+
+
+
+.mb-65 {
+    margin-bottom: 65px;
+    color: white;
+    font-size: 15px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.section-tittle2 span::before {
+    background: #fff;
+}
+
+.section-tittle span::before {
+    position: absolute;
+    content: "";
+    width: 54px;
+    height: 2px;
+    top: 0;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+</style>
+
+
+
+<div>
+
+
+  <div class="support-company-area pt-100 pb-100 section-bg fix"
+       style="background-image: url('https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp');
+       background-color: white;
+       background-repeat: no-repeat;
+       background-size: cover;
+padding-top: 50px;
+     padding-bottom: 50px;">
+
+
+    <div class="container1">
+    <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6">
+            <div class="support-location-img" style="background-image: url('https://i.imgur.com/E5pmb99.jpg');">
+                <img src="assets/img/gallery/about.png" alt="">
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+            <div class="right-caption">
+                <div class="section-tittle section-tittle2 mb-50" style="margin-top: 30px;">
+                    <span style="float: left; padding-left: 80px; color: white">Юридиеская компания</span>
+                  <br>
+                  <h2></h2>
+                    <h2 class="h21" style="color: white; float: left; font-size: 50px; margin-top: 20px">Adviser Group</h2>
+                  </br>
+                </div>
+                <div class="support-caption" style="margin-top: 80px;">
+                    <p class="pera-top">Юридическая фирма «Adviser Group» была основана в XXXX г и объединила лидеров российской адвокатуры. Сегодня это одна из старейших и самых надежных юридических фирм XXXX и СНГ.
+
+
+Специалисты компании оказывают полный комплекс юридических услуг как в секторе B2B, так и частным лицам в Кыргызстане.</p>
+                    <p class="mb-65">Оставляете заявку через сайт или по телефону<br>
+                      Консультация и расчёт стоимости <br>
+                      Подготовка документов и разработка стратеги</p>
+                    <a href="about.html" class="btn post-btn">Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div>
+
+
+
+
+
+<section data-widget-container data-widget-id="15" data-widget-name="cards" data-widget-type="89" data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=89&amp;widget_id=15&route=widget" id="cards-15" class="nh-cards  widget-sort
+         onmain on-view widget-block nh-editor-panel lazyload  js-indent" >
+  <link href="//s.siteapi.org/frontend/static/grid_12/css/cards.2a54d5.min.css" rel="stylesheet" type="text/css" />
+  <div data-widget-replaceable-content="15" data-ng-non-bindable class="lazyload nh-cards--indent-top-l nh-cards--indent-bottom-m" style="
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(51, 51, 51);
+        background-image: url(&quot;;); background-position: center center; background-size: cover; content:">
+    <div class="js-indent-add" ></div>
+    <div class="nh-cards__inner">
+      <div class="nh-cards__content">
+
+        <ul class="nh-cards__items nh-cards_m nh-cards__items_1">
+          <li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2" style="
+          --shadow-rgba-color: rgba(0,1,1, 1);
+          --border-color: rgba(0,0,0, 1); --border-width: 1px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: auto;
+          background-color: rgba(111,111,1, 1);">
+            <div>
+              <figure >
+                <div class="nh-cards__picture-container ">
+                  <picture class="nh-cards__picture-container nh-cards_round-1 " style=" ">
+                    <source media="(max-width: 767px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/webp ">
+                    <source media="(max-width: 767px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/png ">
+                    <source media="(min-width: 768px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/webp ">
+                    <source media="(min-width: 768px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/png ">
+                    <img alt="Услуги адвоката"
+                     sizes="(max-width: 767px) 288px, (min-width: 768px) 313px "
+                     src="https://i.imgur.com/zfBWUVE.jpg"
+                     media="(-webkit-min-device-pixel-ratio: 1.5) "
+                     class=" nh-cards_round-1 ">
+                  </picture>
+                </div>
+                <div class="nh-cards__info ">
+                  <h4 class="nh-cards__title "style=" color: #ffffff; text-align: center ">Услуги адвоката</h4>
+                  <figcaption class="nh-cards__text" style=" color: #ffffff; text-align: center ">цена договорная</figcaption>
+                </div>
+              </figure>
+            </div>
+          </li>
+          <li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2 " style="
+          --shadow-rgba-color: rgba(0,0,1, 1);
+          --border-color: rgba(0,0,0, 1);
+          --border-width: 0px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: auto;
+          background-color: rgba(222,111,111, 1); ">
+            <div>
+              <figure>
+                <div class="nh-cards__picture-container">
+                  <picture class="nh-cards__picture-container nh-cards_round-1" style="                                        ">
+                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/webp">
+                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/png">
+                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/png">
+                    <img alt="Вторая категория"
+                         sizes="(max-width: 767px) 288px, (min-width: 768px) 313px"
+                         src="https://i.imgur.com/Lru3xgc.jpg"
+                         media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-cards_round-1">
+                  </picture>
+                </div>
+                <div class="nh-cards__info">
+                  <h4 class="nh-cards__title" style="color: #ffffff;text-align: center">Наследственное право</h4>
+                  <figcaption class="nh-cards__text" style="color: #ffffff;text-align: center">цена договорная</figcaption>
+                </div>
+              </figure>
+            </div>
+          </li>
+          <li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2" style="
+          --shadow-rgba-color: rgba(0,0,1, 1);
+          --border-color: rgba(0,0,0, 1); --border-width: 0px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: auto;
+          background-color: rgba(000  ,222,666, 1);">
+          <div>
+            <figure >
+              <div class="nh-cards__picture-container ">
+                <picture class="nh-cards__picture-container nh-cards_round-1 " style=" ">
+                  <source media="(max-width: 767px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/webp ">
+                  <source media="(max-width: 767px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/png ">
+                  <source media="(min-width: 768px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/webp ">
+                  <source media="(min-width: 768px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/png ">
+                  <img
+            alt="Третья категория "
+            sizes="(max-width: 767px) 288px, (min-width: 768px) 313px "
+            src="https://i.imgur.com/i4qNSrv.jpg"
+            media="(-webkit-min-device-pixel-ratio: 1.5) "
+            class=" nh-cards_round-1 "></picture></div><div class="nh-cards__info "><h4 class="nh-cards__title "
+													style=" color: #ffffff; text-align: center ">Жилищные вопросы
+												</h4><figcaption class="nh-cards__text "
+													style=" color: #ffffff; text-align: center ">цена договорная
+												</figcaption></div></figure></div></li><li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2 "
+
+
+
+           style="
+           --shadow-rgba-color: rgba(0,0,1, 1);
+           --border-color: rgba(0,0,0, 1);
+           --border-width: 0px;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: auto;
+           background-color: rgba(111, 111, 111, 1); ">
+            <div>
+              <figure>
+                <div class="nh-cards__picture-container">
+                  <picture class="nh-cards__picture-container nh-cards_round-1" style="                                        ">
+                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/webp">
+                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/png">
+                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/png">
+                    <img alt="Четвёртая категория" sizes="(max-width: 767px) 288px, (min-width: 768px) 313px"
+                         src="https://i.imgur.com/CsS9EaM.jpg"
+                         media="(-webkit-min-device-pixel-ratio: 1.5)"
+                         class=" nh-cards_round-1"></picture>
+                </div>
+                <div class="nh-cards__info" id="sviaz">
+                  <h4 class="nh-cards__title" style="
+																											color: #ffffff;
+																																								text-align: center													">Арбитраж
+												</h4>
+                  <figcaption class="nh-cards__text" style="
+																											color: #ffffff;
+																																								text-align: center													">цена договорная
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </li>
+        </ul>
+      </div >
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Контактная информация</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-lg-6">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3>Контакты</h3>
+									<p class="mb-4">Мы открыты для любых предложений или просто для того, чтобы поболтать</p>
+									<div id="form-message-warning" class="mb-4"></div>
+				      		<div id="form-message-success" class="mb-4">
+				            Ваше сообщение было отправлено, спасибо!
+				      		</div>
+									<div class="row mb-4">
+										<div class="col-md-4">
+											<div class="dbox w-100 d-flex align-items-start">
+						        		<div class="text">
+							            <p><span style="color: black">Adress:</span>​Раззакова, 49​ <br>1 этаж, 1 кабинет​  Первомайский район, Бишкек</p>
+							          </div>
+						          </div>
+										</div>
+										<div class="col-md-4">
+											<div class="dbox w-100 d-flex align-items-start">
+						        		<div class="text">
+							            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+							          </div>
+						          </div>
+										</div>
+										<div class="col-md-4">
+											<div class="dbox w-100 d-flex align-items-start">
+						        		<div class="text">
+							            <p><span>Phone:</span> <a href="tel://1234567920">+996 770 94 70 94</a></p>
+							          </div>
+						          </div>
+										</div>
+									</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Имя">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Электронный адрес">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Телефон">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Сообщение"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+									<div class="w-100 social-media mt-5">
+										<h3>Следите за нами здесь</h3>
+										<p>
+											<a style="color: black" href="#">Facebook</a>
+											<a style="color: black" href="#">Twitter</a>
+											<a style="color: black" href="#">Instagram</a>
+											<a style="color: black" href="#">Dribbble</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg);">
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<section data-widget-container data-widget-id="23" data-widget-name="footer-columns" data-widget-type="98" data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=98&amp;widget_id=23&route=widget" id="footer-columns-23" class="nh-footer-columns  widget-sort
+         onmain on-view widget-block nh-editor-panel lazyload  js-indent">
+  <link href="//s.siteapi.org/frontend/static/grid_12/css/footer-columns.24c50b.min.css" rel="stylesheet" type="text/css" />
+  <div data-widget-replaceable-content="23" data-ng-non-bindable class="nh-footer-columns__wrapper lazyload nh-footer-columns--indent-top-m nh-footer-columns--indent-bottom-m" style="
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(17,21,28, 1);" >
+
+    <div class="js-indent-add" ></div>
+    <div class="nh-footer-columns__inner nh-footer-columns__container" style="grid-template-columns: repeat( 4, 1fr);" >
+      <div class="nh-footer-columns__column" >
+        <div class="nh-footer-columns__section nh-footer-columns__section--align-left" style="--title-color: #FFFFFF;" >
+          <div class="nh-footer-columns__title-container" >
+            <div class="nh-footer-columns__section-title" style="--title-color: #FFFFFF;">
+              О компании
+            </div>
+            <div class="nh-footer-columns__title-svg" style="--title-color: #FFFFFF;"></div>
+          </div>
+          <ul class="nh-footer-columns__links-list">
+            <li class="nh-footer-columns__links-item"><a class="nh-footer-columns__link nh-footer-columns__link--underline" href="" target="_parent" style="--item-color: #B2BCC3; --item-hover: #0CF574;">
+                                        О нас
+                                    </a>
+            <a class="nh-footer-columns__link nh-footer-columns__link--underline" href="" target="_parent" style="--item-color: #B2BCC3; --item-hover: #0CF574;">
+                                        Контакты
+                                    </a>
+              <a class="nh-footer-columns__link nh-footer-columns__link--underline" href="" target="_parent" style="--item-color: #B2BCC3; --item-hover: #0CF574;">
+                                        Услуги
+                                    </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+          </div>
+          <div id="for-explain"></div>
+          <input type="hidden" class="-currentFont" value="Montserrat">
+          <script src="/js/lang/ru_RU/translate.js?v=8450396804356098204101"></script>
+          <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
+          <script src="//s.siteapi.org/frontend/static/grid_12/js/vendor-3a5091a4e8.min.js" id="js/vendor.min.js" type="text/javascript"></script>
+          <script src="//s.siteapi.org/frontend/static/grid_12/js/scripts-032125abc1.js" id="js/scripts.js" type="text/javascript"></script>
+          <div id="vk_api_transport"></div>
+          <script>
+          $(document).ready(function() {
+            //Inspired by a dribbble by Bluroon
+            //https://dribbble.com/shots/1356864-Contact-Us
+
+            //Capture the click event on a location
+            $("#location-bar a").click(function(event){
+              event.preventDefault();
+
+              var $this = $(this),
+                  $li = $this.parent(),
+                  selectedMap = $this.attr("href"),
+                  selectedLocation = $this.data('location');
+
+              $li.addClass('active').siblings('li').removeClass('active');
+
+              //Update #map bkimage with the image from the location
+              $('#map').css('background-image', 'url(' + selectedMap + ')');
+              //update tooltip 'address'
+              $('.selectedLocation').text(selectedLocation);
+            });
+          });
+          </script>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+<div >
+
+</div>
+
+
+
+
+</body>
+
+
+</html>
