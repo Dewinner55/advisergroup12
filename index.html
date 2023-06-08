@@ -164,6 +164,10 @@
 
 	<link rel="stylesheet" href="css2/style.css">
 
+    <link rel="stylesheet" href="путь_к_aos.css">
+
+
+
 
 
 </head>
@@ -281,7 +285,7 @@
 
                               </li>
                               <li id="lnk-2" data-sort="1" class="site-menu__item" data-label="О компании">
-                                <a href="#about" style="">О компании</a>
+                                <a href="#nas" style="">О компании</a>
                               </li>
                               <li id="lnk-3" data-sort="2" class="site-menu__item" data-label="Каталог товаров">
                                 <a href="#uslugi" style="">Услуги</a>
@@ -341,17 +345,33 @@
               background-repeat: repeat-x;
               background-size: auto;
               background-color: rgba(9,17,62, 1);">
+                <style>.splide__slide {
+  /* Другие стили */
+  transition-duration: 0.5s; /* Установите значение меньше */
+}
+</style>
                 <div data-ng-non-bindable class="content-block nh-carousel-fullscreen__content" id="carousel-fullscreen-show">
-                  <div class="splide splide-13 nh-carousel-fullscreen__container" data-splide='{ "type": "loop", "autoplay": false, "rewind": true, "rewindByDrag": true }'>
-                    <div class="splide__arrows nh-carousel-fullscreen__arrows splide__arrows--ltr"><button class="splide__arrow nh-carousel-fullscreen__arrow splide__arrow--prev nh-carousel-fullscreen__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="M27.7071 20.7071C28.0976 20.3166 28.0976 19.6834 27.7071 19.2929L23.7071 15.2929C23.3166 14.9024 22.6834 14.9024 22.2929 15.2929C21.9024 15.6834 21.9024 16.3166 22.2929 16.7071L24.5858 19H13C12.4477 19 12 19.4477 12 20C12 20.5523 12.4477 21 13 21H24.5858L22.2929 23.2929C21.9024 23.6834 21.9024 24.3166 22.2929 24.7071C22.6834 25.0976 23.3166 25.0976 23.7071 24.7071L27.7071 20.7071Z"></path></svg></button><button class="splide__arrow nh-carousel-fullscreen__arrow splide__arrow--next nh-carousel-fullscreen__arrow--next" type="button" aria-label="Go to first slide" aria-controls="splide01-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="M27.7071 20.7071C28.0976 20.3166 28.0976 19.6834 27.7071 19.2929L23.7071 15.2929C23.3166 14.9024 22.6834 14.9024 22.2929 15.2929C21.9024 15.6834 21.9024 16.3166 22.2929 16.7071L24.5858 19H13C12.4477 19 12 19.4477 12 20C12 20.5523 12.4477 21 13 21H24.5858L22.2929 23.2929C21.9024 23.6834 21.9024 24.3166 22.2929 24.7071C22.6834 25.0976 23.3166 25.0976 23.7071 24.7071L27.7071 20.7071Z"></path></svg></button></div>
-                    <div class="small-12 column splide__track ">
-                      <ul class="splide__list nh-carousel-fullscreen__items">
-                        <li data-splide-interval="5000" data-slide-id="9" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
+                  <div class="splide splide-13 nh-carousel-fullscreen__container splide--fade splide--ltr splide--draggable is-active is-overflow is-initialized"
+                       data-splide="{ &quot;type&quot;: &quot;fade&quot;, &quot;autoplay&quot;: true, &quot;rewind&quot;: true, &quot;rewindByDrag&quot;: true }"
+                       id="splide01" role="region" aria-roledescription="carousel" style="max-width: 100vw;">
+                    <div class="splide__arrows nh-carousel-fullscreen__arrows splide__arrows--ltr">
+                      <button class="splide__arrow nh-carousel-fullscreen__arrow splide__arrow--prev nh-carousel-fullscreen__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="M27.7071 20.7071C28.0976 20.3166 28.0976 19.6834 27.7071 19.2929L23.7071 15.2929C23.3166 14.9024 22.6834 14.9024 22.2929 15.2929C21.9024 15.6834 21.9024 16.3166 22.2929 16.7071L24.5858 19H13C12.4477 19 12 19.4477 12 20C12 20.5523 12.4477 21 13 21H24.5858L22.2929 23.2929C21.9024 23.6834 21.9024 24.3166 22.2929 24.7071C22.6834 25.0976 23.3166 25.0976 23.7071 24.7071L27.7071 20.7071Z"></path></svg></button><button class="splide__arrow nh-carousel-fullscreen__arrow splide__arrow--next nh-carousel-fullscreen__arrow--next" type="button" aria-label="Go to first slide" aria-controls="splide01-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="M27.7071 20.7071C28.0976 20.3166 28.0976 19.6834 27.7071 19.2929L23.7071 15.2929C23.3166 14.9024 22.6834 14.9024 22.2929 15.2929C21.9024 15.6834 21.9024 16.3166 22.2929 16.7071L24.5858 19H13C12.4477 19 12 19.4477 12 20C12 20.5523 12.4477 21 13 21H24.5858L22.2929 23.2929C21.9024 23.6834 21.9024 24.3166 22.2929 24.7071C22.6834 25.0976 23.3166 25.0976 23.7071 24.7071L27.7071 20.7071Z"></path></svg></button></div>
+                    <div class="small-12 column splide__track splide__track--fade splide__track--ltr splide__track--draggable" id="splide01-track"
+                         style="padding-left: 0px; padding-right: 0px;"
+                         aria-live="off"
+                         aria-atomic="true"
+                         aria-busy="false">
+                      <ul class="splide__list nh-carousel-fullscreen__items" id="splide01-list" role="presentation">
+                        <li data-splide-interval="3000" data-slide-id="9" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
                         background-position: top left;
-                        background-repeat: repeat-x;
-                        background-size: auto;
+                        background-repeat: no-repeat;
+                        background: cover;
+
+                        background-size: cover; /* Или background-size: cover; */
                         background-color: rgba(49,79,159, 1);"
-                            data-bgset="//i.siteapi.org/m1VyMIN9GNCVQ6ntskRH-HSsVk0=/fit-in/2000x4000/center/top/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/k2y1skyngq8sg4sosso4ws0gcws0w0, //i.siteapi.org/d30Q7IXcpocbfJcPg5IkbHahpuo=/fit-in/4000x8000/center/top/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/k2y1skyngq8sg4sosso4ws0gcws0w0 2x">
+                              data-bgset="https://i.imgur.com/uoLmyK7.jpg"
+                          id="splide01-slide01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 3" aria-hidden="true">
                           <div class="nh-carousel-fullscreen__item-wrapper">
                             <figure class="nh-carousel-fullscreen__figure nh-carousel-fullscreen__inner
                                          nh-carousel-fullscreen__figure--all nh-carousel-fullscreen__figure--reverse">
@@ -360,25 +380,28 @@
                                   <source media="(max-width: 767px)" srcset="//i.siteapi.org/gkoh7-SZ8mLWD7R1vV646C8CcK0=/fit-in/374x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/webp">
                                   <source media="(max-width: 767px)" srcset="//i.siteapi.org/9n_QbM8BxPlxKC-cJXlHy3p3W9M=/fit-in/374x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/png">
                                   <source media="(min-width: 768px)" srcset="//i.siteapi.org/50yvdKBZxmGSbdJzXDvvc9nzo5Q=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/webp">
-                                  <source media="(min-width: 768px)" srcset="//i.siteapi.org/CYxmdVKWFKFRrb0dK4A65nS8EzU=/fit-in/608x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/png"><img alt="Adviser Group" sizes="(max-width: 767px) 374px, (min-width: 768px) 608px" src="//i.siteapi.org/50yvdKBZxmGSbdJzXDvvc9nzo5Q=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw" media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-carousel-fullscreen_round-2"></picture>
-                              </div><div class="nh-carousel-fullscreen__info"><div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-left"
-                                                        style="
-                                                                                                                    color: #FFF;
-                                                         ">
-														Adviser Group
-                                                    </div><figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-left" style="
-                                                                                                                    color: #ffffff;
-                                                                                                                                                                            text-align: left                                                        ">Adviser Group - ведущая юридическая фирма, расположенная в городе Бишкеке.
-                                                    </figcaption><a target="_parent" href="#sviaz" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--secondary nh-carousel-fullscreen__btn--margin-0">Бесплатная консультация</a></div>
+                                  <source media="(min-width: 768px)" srcset="//i.siteapi.org/CYxmdVKWFKFRrb0dK4A65nS8EzU=/fit-in/608x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/8kndtkedkcsoo8g840wgg00gkgkosw 1x," type="image/png"><img alt="Adviser Group" sizes="(max-width: 767px) 374px, (min-width: 768px) 608px" src="" media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-carousel-fullscreen_round-2"></picture>
+                              </div>
+                              <div class="nh-carousel-fullscreen__info">
+  <div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-left" style="color: #FFF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);">
+    Adviser Group
+  </div>
+  <figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-left" style="color: #ffffff; text-align: left; text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);">
+    <h3 style="color: #ffffff; text-align: left; text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);">Adviser Group - ведущая консалтинговая фирма, расположенная в городе Бишкеке.</h3>
+  </figcaption>
+  <a target="_parent" href="#contact" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--secondary nh-carousel-fullscreen__btn--margin-0">Бесплатная консультация</a>
+</div>
+
                             </figure>
                           </div>
                         </li>
-                        <li data-splide-interval="5000" data-slide-id="12" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
+                        <li data-splide-interval="3000" data-slide-id="12" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
                         background-position: right;
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-color: rgba(249,235,224, 1);"
-                            data-bgset="//i.siteapi.org/7EeXtuXxVLWnWRZmtrVONBth1c4=/fit-in/2000x4000/center/top/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/bing1lg5m8oc4c4kgoscws48gww8gs, //i.siteapi.org/qh35yWMAzfbULE2ildQQtW9wYbQ=/fit-in/4000x8000/center/top/filters:format(webp):no_upscale()/s2.sitea48gww8gs 2x">
+                            data-bgset="https://i.imgur.com/uZG3mg0.jpg"
+                            id="splide01-slide02" role="tabpanel" aria-roledescription="slide" aria-label="2 of 3" aria-hidden="true">
                           <div class="nh-carousel-fullscreen__item-wrapper">
                             <figure class="nh-carousel-fullscreen__figure nh-carousel-fullscreen__inner
                                          nh-carousel-fullscreen__figure--all">
@@ -389,35 +412,34 @@
                                   <source media="(min-width: 768px)" srcset="//i.siteapi.org/9YqV7YPDAQK_d63YNOEOE_JBimU=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks 1x," type="image/webp">
                                   <source media="(min-width: 768px)" srcset="//i.siteapi.org/Wi0b_z5DBE9OXHYkwJwHngPPSQc=/fit-in/608x/filters:format(png):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks 1x," type="image/png"><img alt="Adviser Group" sizes="(max-width: 767px) 374px, (min-width: 768px) 608px" src="//i.siteapi.org/9YqV7YPDAQK_d63YNOEOE_JBimU=/fit-in/608x/filters:format(webp):no_upscale()/s2.siteapi.org/e4576e079b8b459/carousel-fullscreen/2mgpy8lvxles8oggk4gcgck40w8gks" media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-carousel-fullscreen_round-2"></picture></div>
                               <div class="nh-carousel-fullscreen__info" >
-                                <div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-left" style="
-                                                                                                                    color: #11151C;
-                                                         ">
+                                <div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-left" style="color: #FFF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);">
 														Adviser Group
                                                     </div>
                                 <figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-left" style="
                                                                                                                     color: #1E2430;
-                                                                                                                                                                            text-align: left                                                        ">Мы специализируемся на широком спектре юридических услуг, от корпоративного и коммерческого права <br/>до судебных разбирательств и разрешения споров.
-                                </figcaption><a target="_parent" href="#sviaz" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--basic nh-carousel-fullscreen__btn--margin-0">Оставить заявку</a></div>
+                                                                                                                                                                            text-align: left                                                        ">
+                                  <h5 style="color: #ffffff; text-align: left; text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);">Мы специализируемся на широком спектре юридических услуг, от корпоративного и коммерческого права <br/>до судебных разбирательств и разрешения споров.</h5>
+                                </figcaption><a target="_parent" href="#contact" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--basic nh-carousel-fullscreen__btn--margin-0">Оставить заявку</a></div>
                             </figure>
                           </div>
                         </li >
-                        <li data-splide-interval="5000" data-slide-id="11" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
+                        <li data-splide-interval="3000" data-slide-id="11" class="splide__slide nh-carousel-fullscreen__item  lazyload" style="
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
-                        background-color: rgba(91,64,215, 1);" >
+                        background-color: rgba(91,64,215, 1);"
+                        data-bgset="https://i.imgur.com/z0TLNwM.jpg"
+                         id="splide01-slide03" role="tabpanel" aria-roledescription="slide" aria-label="3 of 3" aria-hidden="true">
                           <div class="nh-carousel-fullscreen__item-wrapper">
                             <figure class="nh-carousel-fullscreen__figure nh-carousel-fullscreen__inner
                                          nh-carousel-fullscreen__figure--only-text nh-carousel-fullscreen__figure--hide-img">
                               <div class="nh-carousel-fullscreen__image-block"></div><div class="nh-carousel-fullscreen__info">
-                              <div class="nh-carousel-fullscreen__info-container"><div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-center" style="
-                                                                                                                    color: #ffffff;
-                                                         ">
+                              <div class="nh-carousel-fullscreen__info-container"><div class="nh-carousel-fullscreen__title nh-carousel-fullscreen__title--align-center" style="color: #FFF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);">
 														Adviser Group
                               </div><figcaption class="nh-carousel-fullscreen__text nh-carousel-fullscreen__text--align-center" style="
                                                                                                                     color: #ffffff;
-                                                                                                                                                                            text-align: center                                                        ">Наша опытная команда юристов стремится предоставлять качественные
-                                <br />консультации и представлять интересы наших клиентов.
+                                                                                                                                                                            text-align: center                                                        "><h3 style="color: #ffffff; text-align: center; text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);">Наша опытная команда юристов стремится предоставлять качественные
+                                консультации и представлять интересы наших клиентов.</h3>
                               </figcaption><a target="_parent" href="#uslugi" class="nh-carousel-fullscreen__btn nh-carousel-fullscreen__btn--secondary nh-carousel-fullscreen__btn--margin-1">Узнать больше</a></div>
                             </div>
                             </figure>
@@ -435,9 +457,681 @@
               </div >
             </section >
 
+<style>
+.advantages {
+    background-color: #779595;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container7 {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container7 {
+    width: 100%;
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container7 {
+    width: 100%;
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container7 {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+@media (min-width: 992px)
+.col-lg-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+}
+
+[data-aos][data-aos][data-aos-duration="2000"], body[data-aos-duration="2000"] [data-aos] {
+    transition-duration: 2s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+
+.advantages img {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.advantages h4 {
+    color: #fff;
+    font-family: Lora,sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 10px 30px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.advantages p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+</style>
+
+<section>
+  <div class="advantages">
+    <div class="container7">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div data-aos="zoom" data-aos-duration="2000" data-aos-easing="ease">
+            <img src="https://relevance.kg/wp-content/uploads/2021/12/adv1.svg" alt="Надежный партнер" style="height: 78px;">
+            <h4>Надежный партнер</h4>
+            <p>Больше 600 довольных клиентов из разных отраслей бизнеса за 6 лет работы
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div data-aos="zoom" data-aos-duration="2000" data-aos-easing="ease">
+            <img src="https://relevance.kg/wp-content/uploads/2021/12/adv2.svg" alt="Выгодное решение" style="height: 78px;">
+            <h4>Выгодное решение</h4>
+            <p>Индивидуальный подход к каждому партнеру
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div data-aos="zoom" data-aos-duration="2000" data-aos-easing="ease">
+            <img src="https://relevance.kg/wp-content/uploads/2021/12/adv3.svg" alt="Профессионалы своего дела" style="height: 78px;">
+            <h4>Профессионалы своего дела</h4>
+            <p>Команда квалифицированных и сертифицированных юристов и специалистов бухгалтерского учета и налогообложения
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div data-aos="zoom" data-aos-duration="2000" data-aos-easing="ease" >
+            <img src="https://relevance.kg/wp-content/uploads/2021/12/adv4.svg" alt="Все услуги в одном месте" style="height: 78px;">
+            <h4>Все услуги в одном месте</h4>
+            <p id="uslugi">Предлагаем комплекс сопроводительных услуг, в том числе по регистрации компании в Кыргызстане
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section >
+
+
+
+
+<section>
+    <style>
+        element.style {
+}
+
+.services-area1 {
+    background: #f9f9f9;
+    width: 100%;
+    max-width: 100%; /* Задайте желаемую ширину элемента */
+    margin: 0 auto; /* Центрирование элемента по горизонтали */
+}
+
+.section-padding31 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+}
+@media (max-width: 1200px) {
+    .container4 {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container4 {
+        max-width: 1600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container4 {
+        max-width: 720px;
+    }
+}
+
+
+
+.container4 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row4 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-between; /* Добавьте это свойство для равномерного распределения изображений по ширине */
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+}
+
+{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.section-tittle1 span {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    color: #eb566c;
+    display: inline-block;
+    position: relative;
+    padding-left: 98px;
+}
+
+.section-tittle1 span::before {
+    position: absolute;
+    content: "";
+    width: 54px;
+    height: 2px;
+    background: #eb566c;
+    top: 50%;
+    margin-left: 30px;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.section-tittle1 h2 {
+    font-size: 50px;
+    display: block;
+    color: #092c3f;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    color: #092c3f;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.services-area1 .single-services5 .services-caption5 {
+    position: relative;
+    background: #fff;
+    width: 90%;
+    padding: 33px 46px 16px 32px;
+    margin-top: -50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-area1 .single-services5 .services-img img {
+    width: 100%;
+
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.homeservice{
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #4f4f4f;
+    font-size: 24px;
+    line-height: 32px;
+    min-height: 90px;
+}
+
+.single-services6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 10px; /* Ширина маркера */
+  height: 10px; /* Высота маркера */
+  background-color: black; /* Цвет маркера */
+  border-radius: 100%; /* Задаем круглую форму маркеру */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+.single-services6 {
+  position: relative;
+  padding-left: 30px; /* Добавляем отступ слева, чтобы маркер не перекрывал текст */
+
+}
+
+.hover-image {
+  display: none; /* Скрываем изображение по умолчанию */
+}
+
+.services-caption5:hover .hover-image {
+  display: block; /* Показываем изображение при наведении на секцию */
+}
+
+
+
+
+    </style>
+
+<div class="services-area1 section-padding31">
+  <div class="container4">
+    <div class="row4">
+      <div class="cl-xl-7 col-lg-4 col-md-10">
+
+        <div class="section-tittle1 mb-70">
+          <span>Adviser Group</span>
+          <h2>НАШИ УСЛУГИ</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row4">
+        <div class="col-lg-4 col-md-6 col-sm-10">
+  <div class="single-services5 mb-100">
+    <div class="services-img">
+      <img src="https://www.modelerp.com/wp-content/uploads/2019/08/dokuman-yonetimi.png" alt="">
+    </div>
+
+    <div class="services-caption5">
+      <span class="homeservice">Аутсорсинг бухглатесркого учета</span><br><br>
+      <p class="single-services6" style="font-size: 18px;">Постановка и ведение бухгалтерского учета</p>
+      <p class="single-services6" style="font-size: 18px;">Функция главного бухгалтера</p>
+      <p class="single-services6" style="font-size: 18px;">Систематический контроль бухгалтерского учета</p>
+    </div>
+  </div>
+</div>
+
+      <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://www.modelerp.com/wp-content/uploads/2019/08/finans-yonetimi.png" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Налоговое сопровождение</span><br><br>
+            <div class="homerservice">
+              <p class="single-services6" style="font-size: 18px;">Оптимизация налогообложения бизнеса</p>
+              <p class="single-services6" style="font-size: 18px;">Налоговый аудит</p>
+              <p class="single-services6" style="font-size: 18px;">Выявление налоговых рисков</p>
+              <p class="single-services6" style="font-size: 18px;">Сопровождение налоговых проверок</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://www.modelerp.com/wp-content/uploads/2019/08/persenel-bordro-yonetimi.png" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Аудит</span><br><br>
+            <p style="font-size: 18px;">Аудит финансовой отчетности</p>
+            <p class="single-services6" style="font-size: 18px;">Правовой аудит</p>
+            <p class="single-services6" style="font-size: 18px;">Налоговый аудит</p>
+            <p class="single-services6" style="font-size: 18px;">Согласованные аудиторские процедуры</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://vk-on.ru/wp-content/uploads/2023/02/01-550x400.png" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Юридическое сопровождение</span><br><br>
+            <p class="single-services6" style="font-size: 18px;">Регистрация и ликвидация юридических лиц в госудраственных органах КР</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src=https://fernandofsantos.com.br/wp-content/uploads/2019/06/Auditoria-SEO-Fernando-Santos-Especialista-SEO_3.png" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Консалтинг</span><br><br>
+            <p class="single-services6" style="font-size: 18px;">Восстановление бухгалтерского и налогового учета</p>
+            <p class="single-services6" style="font-size: 18px;">  Разработка и внедрение бизнес-процессов</p>
+            <p class="single-services6" style="font-size: 18px;">  Разработка учетной и налоговой политики</p>
+            <p class="single-services6" style="font-size: 18px;">  Решение нестандартных задач</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://static.tildacdn.com/tild3331-3739-4364-b537-663733663636/6.jpg" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Подготовка финансовой отчетности</span><br><br>
+            <p class="single-services6" style="font-size: 18px;">Трансформация финансовой отчетности</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://pbs.twimg.com/media/D_fISToWwAAMUPF.png" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Организация торгов</span><br><br>
+            <p class="single-services6" style="font-size: 18px;">Организация торгов</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://avatars.mds.yandex.net/i?id=d1728d54966ead631a7ba0e732351124-4754140-images-thumbs&n=13" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Иммиграционное право</span><br><br>
+            <p class="single-services6" style="font-size: 18px;">Имиграционное право</p>
+          </div>
+        </div>
+    </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+        <div class="single-services5 mb-100">
+          <div class="services-img">
+            <img src="https://www.netlab.ru/upload/iblock/42f/partner.png" alt="">
+          </div>
+          <div class="services-caption5">
+            <span class="homeservice">Трудовое право</span><br><br>
+            <p class="single-services6" style="font-size: 18px;">Трудовое право</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+
+
+
 
 
 <style>
+    .section-bg {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+    .w-padding2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+
+    .align-items-center1 {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+    .justify-content-between1 {
+        -ms-flex-pack: justify!important;
+        justify-content: space-between!important;
+    }
+
+    .row1 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 00px;
+        margin-left: 000px;
+    }
+
+    .wantToWork-area .wantToWork-caption h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+
+    .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-black1 {
+    background: green;
+}
+
+.btn1 {
+    background: #;
+    padding: 30px 100px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 34px;
+    border-radius: 100px;
+    -moz-user-select: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media (min-width: 601px) {
+    .btn1 {
+        margin-left: -400px;
+    }
+}
+
+.btn1:hover {
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+<section class="wantToWork-area w-padding2 section-bg"
+         data-background="assets/img/gallery/section_bg03.jpg"
+         style="background-color: #779595;">
+  <div class="container1">
+    <div class="row1 align-items-center1 justify-content-between1">
+      <div class="col-xl-7 col-lg-9 col-md-8">
+        <div class="">
+          <h1 style="color: white;">Вы ищете первоклассного консультанта?</h1>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-4">
+        <a href="#" class="btn1 btn-black1 f-right1" style="font-size: 20px;">
+            Записаться</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  #ourclients {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding-bottom: 30px;
+    height: 500px;
+  }
+
+  #ourclients .clients-wrap {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: white;
+  }
+
+  #ourclients .clients-wrap ul {
+    display: block;
+    list-style: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ourclients .clients-wrap ul li {
+    display: block;
+    float: left;
+    position: relative;
+    width: 220px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  #ourclients .clients-wrap ul li img {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 150px;
+    max-height: 100%;
+    -webkit-transition: 0 linear left;
+    -moz-transition: 0 linear left;
+    transition: 0 linear left;
+  }
+
+  #ourclients h3 {
+    border-bottom: px solid #3399ff;
+    width: 150px;
+    padding: 10px;
+  }
+</style>
+
+<section>
+  <script src="java.js"></script>
+  <div id="ourclients">
+    <center>
+      <h1><br><br>Наши партнеры</h1>
+      <br>
+      <br>
+    </center>
+    <div class="clients-wrap">
+      <ul id="clientlogo" class="clearfix">
+
+        <li>
+          <img src="https://i.ibb.co/N92D9G3/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-removebg-preview.png" alt="Logo">
+        </li>
+        <li>
+          <img src="https://i.ibb.co/G31gG9y/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Create-a-logo-removebg-preview.png" alt="Logo">
+        </li>
+        <li>
+          <img src="https://i.ibb.co/jkSTBVP/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-2-removebg-preview.png" alt="Logo">
+        </li>
+        <li>
+          <img src="https://i.ibb.co/KNFTLHv/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Logo-design-proposals-1.png" alt="Logo">
+        </li>
+        <li>
+          <img src="https://i.ibb.co/G31gG9y/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Create-a-logo-removebg-preview.png" alt="Logo">
+        </li>
+        <li id="nas">
+          <img src="https://i.ibb.co/G31gG9y/Screenshot-2020-10-20-My-Brand-New-Logo-My-Brand-New-Logo-Create-a-logo-removebg-preview.png" alt="Logo">
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+              <style>
   .a {
   background-color:red
   width: 10px;
@@ -493,7 +1187,7 @@
 .support-location-img {
     background-size: cover;
     background-position: center;
-    width: 105%; /* Ширина элемента */
+    width: 100%; /* Ширина элемента */
     height: 600px; /* Высота элемента */
 
 
@@ -535,7 +1229,15 @@
     border-radius: 5px;
     color: white;
     background-color: green;
+    position: relative;
+    z-index: 1;
 }
+.btn:hover {
+    color: yellow;
+}
+
+
+
 
 .post-btn {
     /* Дополнительные стили для кнопки */
@@ -640,7 +1342,7 @@ padding-top: 50px;
         <div class="col-xl-6 col-lg-6">
             <div class="right-caption">
                 <div class="section-tittle section-tittle2 mb-50" style="margin-top: 30px;">
-                    <span style="float: left; padding-left: 80px; color: white">Юридиеская компания</span>
+                    <span style="float: left; padding-left: 80px; color: white">О НАС</span>
                   <br>
                   <h2></h2>
                     <h2 class="h21" style="color: white; float: left; font-size: 50px; margin-top: 20px">Adviser Group</h2>
@@ -654,7 +1356,7 @@ padding-top: 50px;
                     <p class="mb-65">Оставляете заявку через сайт или по телефону<br>
                       Консультация и расчёт стоимости <br>
                       Подготовка документов и разработка стратеги</p>
-                    <a href="about.html" class="btn post-btn">Оставить заявку</a>
+                    <a href="#contact" class="btn post-btn">Оставить заявку</a>
                 </div>
             </div>
         </div>
@@ -667,154 +1369,8 @@ padding-top: 50px;
 
 
 
-<section data-widget-container data-widget-id="15" data-widget-name="cards" data-widget-type="89" data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=89&amp;widget_id=15&route=widget" id="cards-15" class="nh-cards  widget-sort
-         onmain on-view widget-block nh-editor-panel lazyload  js-indent" >
-  <link href="//s.siteapi.org/frontend/static/grid_12/css/cards.2a54d5.min.css" rel="stylesheet" type="text/css" />
-  <div data-widget-replaceable-content="15" data-ng-non-bindable class="lazyload nh-cards--indent-top-l nh-cards--indent-bottom-m" style="
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: rgb(51, 51, 51);
-        background-image: url(&quot;;); background-position: center center; background-size: cover; content:">
-    <div class="js-indent-add" ></div>
-    <div class="nh-cards__inner">
-      <div class="nh-cards__content">
 
-        <ul class="nh-cards__items nh-cards_m nh-cards__items_1">
-          <li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2" style="
-          --shadow-rgba-color: rgba(0,1,1, 1);
-          --border-color: rgba(0,0,0, 1); --border-width: 1px;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-color: rgba(111,111,1, 1);">
-            <div>
-              <figure >
-                <div class="nh-cards__picture-container ">
-                  <picture class="nh-cards__picture-container nh-cards_round-1 " style=" ">
-                    <source media="(max-width: 767px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/webp ">
-                    <source media="(max-width: 767px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/png ">
-                    <source media="(min-width: 768px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/webp ">
-                    <source media="(min-width: 768px) " srcset="https://i.imgur.com/zfBWUVE.jpg" type="image/png ">
-                    <img alt="Услуги адвоката"
-                     sizes="(max-width: 767px) 288px, (min-width: 768px) 313px "
-                     src="https://i.imgur.com/zfBWUVE.jpg"
-                     media="(-webkit-min-device-pixel-ratio: 1.5) "
-                     class=" nh-cards_round-1 ">
-                  </picture>
-                </div>
-                <div class="nh-cards__info ">
-                  <h4 class="nh-cards__title "style=" color: #ffffff; text-align: center ">Услуги адвоката</h4>
-                  <figcaption class="nh-cards__text" style=" color: #ffffff; text-align: center ">цена договорная</figcaption>
-                </div>
-              </figure>
-            </div>
-          </li>
-          <li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2 " style="
-          --shadow-rgba-color: rgba(0,0,1, 1);
-          --border-color: rgba(0,0,0, 1);
-          --border-width: 0px;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-color: rgba(222,111,111, 1); ">
-            <div>
-              <figure>
-                <div class="nh-cards__picture-container">
-                  <picture class="nh-cards__picture-container nh-cards_round-1" style="                                        ">
-                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/webp">
-                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/png">
-                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/webp">
-                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/Lru3xgc.jpg" type="image/png">
-                    <img alt="Вторая категория"
-                         sizes="(max-width: 767px) 288px, (min-width: 768px) 313px"
-                         src="https://i.imgur.com/Lru3xgc.jpg"
-                         media="(-webkit-min-device-pixel-ratio: 1.5)" class=" nh-cards_round-1">
-                  </picture>
-                </div>
-                <div class="nh-cards__info">
-                  <h4 class="nh-cards__title" style="color: #ffffff;text-align: center">Наследственное право</h4>
-                  <figcaption class="nh-cards__text" style="color: #ffffff;text-align: center">цена договорная</figcaption>
-                </div>
-              </figure>
-            </div>
-          </li>
-          <li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2" style="
-          --shadow-rgba-color: rgba(0,0,1, 1);
-          --border-color: rgba(0,0,0, 1); --border-width: 0px;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-color: rgba(000  ,222,666, 1);">
-          <div>
-            <figure >
-              <div class="nh-cards__picture-container ">
-                <picture class="nh-cards__picture-container nh-cards_round-1 " style=" ">
-                  <source media="(max-width: 767px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/webp ">
-                  <source media="(max-width: 767px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/png ">
-                  <source media="(min-width: 768px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/webp ">
-                  <source media="(min-width: 768px) " srcset="https://i.imgur.com/i4qNSrv.jpg" type="image/png ">
-                  <img
-            alt="Третья категория "
-            sizes="(max-width: 767px) 288px, (min-width: 768px) 313px "
-            src="https://i.imgur.com/i4qNSrv.jpg"
-            media="(-webkit-min-device-pixel-ratio: 1.5) "
-            class=" nh-cards_round-1 "></picture></div><div class="nh-cards__info "><h4 class="nh-cards__title "
-													style=" color: #ffffff; text-align: center ">Жилищные вопросы
-												</h4><figcaption class="nh-cards__text "
-													style=" color: #ffffff; text-align: center ">цена договорная
-												</figcaption></div></figure></div></li><li class="lazyload nh-cards__item nh-cards_without-padding nh-cards_round-2 "
-
-
-
-           style="
-           --shadow-rgba-color: rgba(0,0,1, 1);
-           --border-color: rgba(0,0,0, 1);
-           --border-width: 0px;
-           background-position: center;
-           background-repeat: no-repeat;
-           background-size: auto;
-           background-color: rgba(111, 111, 111, 1); ">
-            <div>
-              <figure>
-                <div class="nh-cards__picture-container">
-                  <picture class="nh-cards__picture-container nh-cards_round-1" style="                                        ">
-                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/webp">
-                    <source media="(max-width: 767px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/png">
-                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/webp">
-                    <source media="(min-width: 768px)" srcset="https://i.imgur.com/CsS9EaM.jpg" type="image/png">
-                    <img alt="Четвёртая категория" sizes="(max-width: 767px) 288px, (min-width: 768px) 313px"
-                         src="https://i.imgur.com/CsS9EaM.jpg"
-                         media="(-webkit-min-device-pixel-ratio: 1.5)"
-                         class=" nh-cards_round-1"></picture>
-                </div>
-                <div class="nh-cards__info" id="sviaz">
-                  <h4 class="nh-cards__title" style="
-																											color: #ffffff;
-																																								text-align: center													">Арбитраж
-												</h4>
-                  <figcaption class="nh-cards__text" style="
-																											color: #ffffff;
-																																								text-align: center													">цена договорная
-                  </figcaption>
-                </div>
-              </figure>
-            </div>
-          </li>
-        </ul>
-      </div >
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-<section class="ftco-section">
+<section id="contact" class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
@@ -828,7 +1384,9 @@ padding-top: 50px;
 							<div class="col-lg-6">
 								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3>Контакты</h3>
-									<p class="mb-4">Мы открыты для любых предложений или просто для того, чтобы поболтать</p>
+									<p class="mb-4">Вы можете написать или позвонить нам.<br>
+
+Мы с радостью ответим на любые ваши вопросы.</p>
 									<div id="form-message-warning" class="mb-4"></div>
 				      		<div id="form-message-success" class="mb-4">
 				            Ваше сообщение было отправлено, спасибо!
@@ -837,21 +1395,21 @@ padding-top: 50px;
 										<div class="col-md-4">
 											<div class="dbox w-100 d-flex align-items-start">
 						        		<div class="text">
-							            <p><span style="color: black">Adress:</span>​Раззакова, 49​ <br>1 этаж, 1 кабинет​  Первомайский район, Бишкек</p>
+							            <p><span style="color: black">Adress:</span><a href="https://2gis.kg/bishkek/firm/70000001027034927">​Раззакова, 49​ <br>1 этаж, 1 кабинет​  Первомайский район, Бишкек</a></p>
 							          </div>
 						          </div>
 										</div>
 										<div class="col-md-4">
 											<div class="dbox w-100 d-flex align-items-start">
 						        		<div class="text">
-							            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+							            <p><span style="color: black">Email:</span><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
 							          </div>
 						          </div>
 										</div>
 										<div class="col-md-4">
 											<div class="dbox w-100 d-flex align-items-start">
 						        		<div class="text">
-							            <p><span>Phone:</span> <a href="tel://1234567920">+996 770 94 70 94</a></p>
+							            <p><span style="color: black">Phone:</span> <a href="tel://1234567920">+996 770 94 70 94</a></p>
 							          </div>
 						          </div>
 										</div>
@@ -898,7 +1456,7 @@ padding-top: 50px;
 								</div>
 							</div>
 							<div class="col-lg-6 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg);">
+								<div class="info-wrap w-100 p-5 img" style="background-image: url('https://d29fhpw069ctt2.cloudfront.net/photo/78007/preview/architecture_preview_85c1.jpeg');">
 			          </div>
 							</div>
 						</div>
@@ -907,6 +1465,8 @@ padding-top: 50px;
 			</div>
 		</div>
 	</section>
+
+
 
 
 
@@ -926,7 +1486,8 @@ padding-top: 50px;
         <div class="nh-footer-columns__section nh-footer-columns__section--align-left" style="--title-color: #FFFFFF;" >
           <div class="nh-footer-columns__title-container" >
             <div class="nh-footer-columns__section-title" style="--title-color: #FFFFFF;">
-              О компании
+              ADVISER GROUP<br>
+              консалтинговая компания
             </div>
             <div class="nh-footer-columns__title-svg" style="--title-color: #FFFFFF;"></div>
           </div>
@@ -998,6 +1559,11 @@ padding-top: 50px;
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/main.js"></script>
+
+      <script src="путь_к_aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 
